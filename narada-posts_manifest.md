@@ -20,4 +20,5 @@ https://t.me/narada_travels
 
 ## СОЦСЕТИ
 - Telegram: https://t.me/narada_travels
-- ВКонтакте: https://vk.com/im/channels/-237568256
+- ВКонтакте канал: https://vk.com/im/channels/-237568256
+- ВКонтакте сообщество: https://vk.com/narada_travels_danang
