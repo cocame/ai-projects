@@ -17,3 +17,9 @@
 - папка: ~/AI_Projects/
 - github: https://github.com/cocame/ai-projects
 - деплой: cd ~/AI_Projects && git add . && git commit -m "update" && git push
+
+## narada — калькулятор и бронь
+- файл: ~/Downloads/narada/index.html
+- цены: строка 470, массив TOURS, поле usd
+- github: https://github.com/cocame/narada
+- деплой: git -C ~/Downloads/narada add . && git -C ~/Downloads/narada commit -m "update" && git -C ~/Downloads/narada push
