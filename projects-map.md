@@ -42,6 +42,13 @@
 - github: https://github.com/cocame/site
 - деплой: git -C ~/Downloads/site add . && git -C ~/Downloads/site commit -m "update" && git -C ~/Downloads/site push
 
+### ⚠️ ПРАВИЛО для работы над ~/Downloads/site/
+При работе над этим проектом разрешено **только читать и копировать** файлы из:
+- `~/Downloads/narada-travels/`
+- `~/Downloads/cocame.github.io/narada-travels/`
+
+**Редактировать эти папки категорически запрещено.**
+
 ## ai-projects — правила и манифесты
 - папка: ~/AI_Projects/
 - github: https://github.com/cocame/ai-projects
