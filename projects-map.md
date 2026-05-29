@@ -53,3 +53,8 @@
 - папка: ~/AI_Projects/
 - github: https://github.com/cocame/ai-projects
 - деплой: cd ~/AI_Projects && git add . && git commit -m "update" && git push
+
+---
+
+## ПРАВИЛО: после любых изменений в коде
+Всегда открывать сайт в браузере автоматически после пуша — без напоминания пользователя.
