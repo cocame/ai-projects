@@ -38,7 +38,7 @@
 - деплой: git -C ~/Downloads/tours add . && git -C ~/Downloads/tours commit -m "update" && git -C ~/Downloads/tours push
 
 ## site — сайт narada-travels.com
-- файл: ~/Downloads/site/index_v4.html
+- файл: ~/Downloads/site/index.html
 - github: https://github.com/cocame/site
 - деплой: git -C ~/Downloads/site add . && git -C ~/Downloads/site commit -m "update" && git -C ~/Downloads/site push
 
