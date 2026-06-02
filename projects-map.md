@@ -58,3 +58,32 @@
 
 ## ПРАВИЛО: после любых изменений в коде
 Всегда открывать сайт в браузере автоматически после пуша — без напоминания пользователя.
+
+---
+
+## ПРАВИЛА РАЗРАБОТКИ SITE — стиль Apple
+
+### Визуальная структура (Frontend)
+- HTML: hero → tours fullscreen → water-cards grid → footer bar
+- Шрифт: -apple-system, BlinkMacSystemFont, SF Pro Display — системный, без Google Fonts
+- Цвета: фон #0a0a0a, текст #ffffff, акцент rgba(255,255,255,0.45)
+- Кнопки: border-radius 980px, border 1px solid rgba(255,255,255,0.45), без заливки
+- Дизайн: без засечек, без золота, без градиентов на тексте
+- Адаптив: мобилка от 390px, кнопки auto width, шрифт clamp()
+
+### UX и поведение
+- Пользователь видит Hero → листает туры → нажимает "Написать нам" → WhatsApp
+- Hover на кнопках: opacity 0.75, transition 0.3s
+- Scroll: parallax на фото hero, текст фиксирован
+
+### Стек
+- Один файл HTML+CSS+JS, без фреймворков
+- GSAP для анимаций (только фото, не текст)
+- Деплой: GitHub Pages → cocame.github.io/site
+- Актуальный файл: ~/Downloads/site/index.html
+
+### После каждого изменения
+1. Перезапустить сервер: lsof -ti:8080 | xargs kill -9 2>/dev/null; mkdir -p ~/Downloads/site && cd ~/Downloads/site && python3 -m http.server 8080 > /dev/null 2>&1 &
+2. Открыть браузер: open http://localhost:8080
+3. Сделать скриншот и показать результат без лишних вопросов
+4. Отправить в продакшен для телефона: git -C ~/Downloads/site add . && git -C ~/Downloads/site commit -m "update" && git -C ~/Downloads/site push
